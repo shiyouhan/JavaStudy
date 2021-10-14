@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #bdc3c7;"
+            xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/"
+            fx:controller="top.syhan.java.jfx.ctrl.TestCtrl">
+   <children>
+      <JFXButton fx:id="btn" layoutX="119.0" layoutY="67.0" mnemonicParsing="false" onAction="#onBtnClick" text="点我"
+      style="-fx-text-fill: WHITE;-fx-background-color: #2980b9;-fx-font-size: 14px;" />
+      <DatePicker layoutX="48.0" layoutY="124.0" prefHeight="23.0" prefWidth="197.0" visible="false" fx:id="datePicker"/>
+   </children>
+</AnchorPane>

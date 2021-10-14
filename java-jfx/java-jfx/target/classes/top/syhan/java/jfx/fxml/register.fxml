@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="labelX" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="577.0" style="-fx-background-color: #48dbfb;" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/" fx:controller="top.syhan.java.jfx.ctrl.TestRegister">
+   <children>
+      <DatePicker fx:id="datePicker" layoutX="348.0" layoutY="59.0" prefHeight="26.0" prefWidth="199.0" visible="false" />
+      <Label layoutX="49.0" layoutY="129.0" text="username：" textFill="#0d0d0d" />
+      <Label layoutX="49.0" layoutY="192.0" text="password：" />
+      <TextField fx:id="userid" layoutX="128.0" layoutY="116.0" promptText="请输入用户名" />
+      <PasswordField layoutX="128.0" layoutY="179.0" promptText="请输入密码" />
+      <JFXButton fx:id="btn" layoutX="147.0" layoutY="279.0" mnemonicParsing="false" onAction="#onBtnClick" text="登录"
+                 style="-fx-text-fill: WHITE;-fx-background-color: #2980b9;-fx-font-size: 13px;" />
+      <Label layoutX="33.0" layoutY="58.0" prefHeight="27.0" prefWidth="266.0" text="Welcome to the calendar！" textFill="#e9f506">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btn1" layoutX="509.0" layoutY="14.0" mnemonicParsing="false" onAction="#offBtnClick" text="日历"
+              style="-fx-text-fill: WHITE;-fx-background-color: #2980b9;-fx-font-size: 13px;" />
+      <CheckBox layoutX="128.0" layoutY="228.0" mnemonicParsing="false" opacity="0.56" prefHeight="0.0" prefWidth="92.0" text="记住密码">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </CheckBox>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="491.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../../w11.png" />
+         </image></ImageView>
+      </children>
+</AnchorPane>

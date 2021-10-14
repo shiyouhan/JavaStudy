@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="160.0" styleClass="card"
+            xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.syhan.java.jfx.ctrl.MusicCtrl">
+    <ImageView fitHeight="70" fitWidth="70" layoutX="45.0" layoutY="-35.0">
+        <Image url="@../icon/10 阿童木-01.png" />
+    </ImageView>
+    <Label layoutX="40" layoutY="80" styleClass="title" text="鉄腕アトム" />
+</AnchorPane>

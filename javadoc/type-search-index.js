@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"top.syhan.java.api.array","l":"ArrayOperation"},{"l":"所有类","url":"allclasses-index.html"}]

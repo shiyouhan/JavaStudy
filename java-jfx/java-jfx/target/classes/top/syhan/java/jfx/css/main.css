@@ -1,0 +1,17 @@
+.root {
+    -fx-background-image: url(../img/11.jpg);
+    -fx-background-size: cover;
+}
+
+.title {
+    -fx-font-size: 15;
+    -fx-text-fill: #cde6c7;
+}
+
+.btn {
+    -fx-min-width: 40;
+    -fx-min-height: 25;
+    -fx-background-color: #afdfe4;
+    -fx-text-fill: #694d9f;
+    -fx-font-size: 10;
+}

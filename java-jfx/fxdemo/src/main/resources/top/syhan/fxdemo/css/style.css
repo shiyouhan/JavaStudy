@@ -1,0 +1,23 @@
+/*根组件样式*/
+.root {
+    -fx-font-size: 16px;
+    /*背景图设置，注意相对路径*/
+    -fx-background-image: url(../images/HMBB.png);
+    -fx-background-size: cover;
+}
+
+/*标签文本色*/
+.label {
+    -fx-text-fill: #0000FF;
+}
+
+/*按钮背景色和文本色*/
+.button {
+    -fx-background-color: #7bb4d7;
+    -fx-text-fill: white;
+}
+
+/*鼠标悬停按钮色*/
+.button:hover {
+    -fx-background-color: #FFE4C4;
+}

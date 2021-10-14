@@ -1,0 +1,18 @@
+.top {
+    -fx-background-color: linear-gradient(to bottom,  #341f97, #48dbfb);
+}
+
+.bg {
+    -fx-border-width: 0;
+    -fx-background-image: url(../img/blue.jpg);
+    -fx-background-size: cover;
+}
+
+.btn {
+    -fx-min-width: 100;
+    -fx-min-height: 40;
+    -fx-background-color: #c8d6e5;
+    -fx-text-fill: #341f97;
+    -fx-font-size: 16;
+    -fx-cursor: hand;
+}
