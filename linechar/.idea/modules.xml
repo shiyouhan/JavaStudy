@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/linechar.iml" filepath="$PROJECT_DIR$/linechar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linechart.iml" filepath="$PROJECT_DIR$/linechart.iml" />
     </modules>
   </component>
 </project>

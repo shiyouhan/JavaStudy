@@ -3,6 +3,6 @@ module top.syhan.linechar {
     requires javafx.fxml;
 
 
-    opens top.syhan.linechar to javafx.fxml;
-    exports top.syhan.linechar;
+    opens top.syhan.linechart to javafx.fxml;
+    exports top.syhan.linechart;
 }
