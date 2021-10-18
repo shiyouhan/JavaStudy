@@ -34,30 +34,50 @@ public class SystemInfoUtil extends Application {
     private static final OperatingSystem OPERATING_SYSTEM =
             SYSTEM_INFO.getOperatingSystem();
     private static final double FORMAT = 1024.0;
-    
+
     @Override
-    public void start(Stage primaryStage) throws IOException {
-        javafx.scene.chart.PieChart pieChart = new
-                javafx.scene.chart.PieChart();
+    public void start(Stage primaryStage) {
+        PieChart pieChart = new PieChart();
         pieChart.setData(getChartData());
+        primaryStage.setTitle("内存使用情况");
         pieChart.setTitle("内存使用情况");
-        pieChart.setLegendSide(Side.LEFT);
-        pieChart.setClockwise(false);
-        pieChart.setLabelsVisible(false);
+
         StackPane root = new StackPane();
         root.getChildren().add(pieChart);
-        primaryStage.setScene(new Scene(root, 800, 500));
+        primaryStage.setScene(new Scene(root, 400, 250));
         primaryStage.show();
     }
-    private ObservableList<PieChart.Data> getChartData()
-    {
-        ObservableList<javafx.scene.chart.PieChart.Data> answer =
-                FXCollections.observableArrayList();
-        answer.addAll(new javafx.scene.chart.PieChart.Data("已使用", 85),
-                new javafx.scene.chart.PieChart.Data("空闲", 15)
-        );
+
+    private ObservableList<PieChart.Data> getChartData() {
+        ObservableList<PieChart.Data> answer = FXCollections.observableArrayList();
+        answer.addAll(new PieChart.Data("已使用", 85),
+                new PieChart.Data("空闲", 15));
         return answer;
     }
+    
+//    @Override
+//    public void start(Stage primaryStage) throws IOException {
+//        javafx.scene.chart.PieChart pieChart = new
+//                javafx.scene.chart.PieChart();
+//        pieChart.setData(getChartData());
+//        pieChart.setTitle("内存使用情况");
+//        pieChart.setLegendSide(Side.LEFT);
+//        pieChart.setClockwise(false);
+//        pieChart.setLabelsVisible(false);
+//        StackPane root = new StackPane();
+//        root.getChildren().add(pieChart);
+//        primaryStage.setScene(new Scene(root, 800, 500));
+//        primaryStage.show();
+//    }
+//    private ObservableList<PieChart.Data> getChartData()
+//    {
+//        ObservableList<javafx.scene.chart.PieChart.Data> answer =
+//                FXCollections.observableArrayList();
+//        answer.addAll(new javafx.scene.chart.PieChart.Data("已使用", 85),
+//                new javafx.scene.chart.PieChart.Data("空闲", 15)
+//        );
+//        return answer;
+//    }
     
     public static JSONObject getCpuInfo() {
         JSONObject cpuInfo = new JSONObject();
