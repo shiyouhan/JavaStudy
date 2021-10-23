@@ -1,6 +1,8 @@
 module top.syhan.chat.ui {
     requires javafx.controls;
     requires javafx.fxml;
+    requires org.kordamp.ikonli.javafx;
+    requires org.kordamp.ikonli.materialdesign;
 
 
     opens top.syhan.chat.ui to javafx.fxml;

@@ -28,12 +28,6 @@
             <Insets left="10" />
         </padding>
     </PasswordField>
-    <!--密码输入框-->
-    <PasswordField id="userPassword" layoutX="200" layoutY="255" prefHeight="45" prefWidth="250" promptText="密码">
-        <padding>
-            <Insets left="10" />
-        </padding>
-    </PasswordField>
     <Button id="loginButton" layoutX="200" layoutY="340" prefHeight="45" prefWidth="250" styleClass="login-button" text="登 陆" />
     <!--版本(Label)-->
     <Label id="slogan" layoutX="10" layoutY="392" prefHeight="15" prefWidth="400" text="v1.0 走夜路的猪 | https://syhan.top">
