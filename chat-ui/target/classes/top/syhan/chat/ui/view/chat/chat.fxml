@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="chat" prefHeight="720.0" prefWidth="980.0"
+      stylesheets="@./css/chat.css" xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <!-- 控制栏 -->
+    <Pane id="bar" prefHeight="720.0" prefWidth="76">
+        <!-- 头像 -->
+        <Button id="barPortrait" layoutX="13" layoutY="23" mnemonicParsing="false" prefHeight="50" prefWidth="50"/>
+
+        <!-- 聊天 -->
+        <Button id="barChat" layoutX="23" layoutY="100" mnemonicParsing="false" prefHeight="30" prefWidth="30"/>
+
+        <!-- 好友 -->
+        <Button id="barFriend" layoutX="23" layoutY="160" mnemonicParsing="false" prefHeight="30" prefWidth="30"/>
+
+        <!-- 收藏 -->
+        <Button id="barLocation" layoutX="23" layoutY="220" mnemonicParsing="false" prefHeight="30" prefWidth="30"/>
+
+        <!-- 设置 -->
+        <Button id="barSet" layoutX="28.0" layoutY="663.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="20"/>
+    </Pane>
+    <!-- groupBarChat -->
+    <Pane id="groupBarChat" layoutX="76" layoutY="1" prefHeight="720.0" prefWidth="980.0"
+          style="-fx-background-color:#ffffff;">
+    </Pane>
+
+    <!-- groupBarFriend -->
+    <Pane id="groupBarFriend" layoutX="76" layoutY="1" prefHeight="720.0" prefWidth="980.0"
+          style="-fx-background-color:#dfe4ea;" visible="false">
+    </Pane>
+
+    <!-- groupBarChat -->
+<!--    <Pane id="groupBarChat" layoutX="76" layoutY="1" prefHeight="720.0" prefWidth="980.0"-->
+<!--          style="-fx-background-color:#D2A5C3;">-->
+<!--        &lt;!&ndash; 搜索栏 &ndash;&gt;-->
+<!--        <Pane styleClass="search" prefHeight="80" prefWidth="314">-->
+<!--            <TextField styleClass="searchInput" layoutX="20" layoutY="30" prefHeight="30" prefWidth="240"-->
+<!--                       promptText="搜索">-->
+<!--                <padding>-->
+<!--                    <Insets left="30"/>-->
+<!--                </padding>-->
+<!--            </TextField>-->
+<!--            <Label styleClass="searchAdd" layoutX="270" layoutY="30" prefHeight="30" prefWidth="30"/>-->
+<!--        </Pane>-->
+<!--        &lt;!&ndash; 会话栏 &ndash;&gt;-->
+<!--        <Pane id="talk" layoutY="80" prefHeight="738" prefWidth="314">-->
+<!--            <ListView id="talkList" prefHeight="738" prefWidth="314" styleClass="talkListStyle"/>-->
+<!--        </Pane>-->
+<!--    </Pane>-->
+</Pane>

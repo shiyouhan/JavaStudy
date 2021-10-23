@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6dd6767-8707-470a-b6dc-6ce0e3e55810" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top/syhan/chat/ui/view/login/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/resources/top/syhan/chat/ui/view/login/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/java/oop/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/java/oop/Test/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/java/oop/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/java/oop/Test/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/java/oop/TestComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/java/oop/Test/TestComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/java/oop/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/java/oop/Test/TestPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/java/oop/Computer$ComputerBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/java/oop/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/java/oop/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/java/oop/TestComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/java/oop/TestPerson.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +131,7 @@
       <workItem from="1634775800142" duration="7295000" />
       <workItem from="1634803989820" duration="19005000" />
       <workItem from="1634825769486" duration="2363000" />
+      <workItem from="1634902290400" duration="390000" />
     </task>
     <servers />
   </component>
