@@ -11,11 +11,13 @@ public class LoginEventDefine {
     private final LoginInit loginInit;
     private final ILoginEvent loginEvent;
     private final ILoginMethod loginMethod;
+    private final LoginController loginController;
 
-    public LoginEventDefine(LoginInit loginInit, ILoginEvent loginEvent, ILoginMethod loginMethod) {
+    public LoginEventDefine(LoginInit loginInit, ILoginEvent loginEvent, ILoginMethod loginMethod, LoginController loginController) {
         this.loginInit = loginInit;
         this.loginEvent = loginEvent;
         this.loginMethod = loginMethod;
+        this.loginController = loginController;
 
         loginInit.move();
         min();
@@ -49,7 +51,7 @@ public class LoginEventDefine {
      */
     private void doEventLogin() {
         loginInit.loginButton.setOnAction(event -> {
-            loginEvent.doLoginCheck(loginInit.userId.getText(), loginInit.userPassword.getText());
+            loginEvent.doLoginCheck(loginInit.userId.getText(), loginInit.userPassword.getText(), this.loginController);
         });
     }
 

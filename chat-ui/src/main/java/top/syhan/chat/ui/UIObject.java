@@ -17,11 +17,7 @@ public abstract class UIObject extends Stage {
     private double xOffset;
     private double yOffset;
 
-    public <T> T $(String id) {
-        return (T) root.lookup("#" + id);
-    }
-
-    public <T> T $(String id,Class name) {
+    public <T> T $(String id,Class<T> clazz) {
         return (T) root.lookup("#" + id);
     }
 
@@ -53,5 +49,4 @@ public abstract class UIObject extends Stage {
      * 初始化事件定义：抽象方法
      */
     public abstract void initEventDefine();
-
 }

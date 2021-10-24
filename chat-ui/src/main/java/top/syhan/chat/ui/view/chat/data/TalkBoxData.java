@@ -8,10 +8,22 @@ package top.syhan.chat.ui.view.chat.data;
  **/
 public class TalkBoxData {
 
-    private String talkId;    // 对话Id
-    private Integer talkType; // 对话类型
-    private String talkName;  // 对话名称
-    private String talkHead;  // 对话头像
+    /**
+     * 对话Id
+     */
+    private String talkId;
+    /**
+     * 对话类型
+     */
+    private Integer talkType;
+    /**
+     * 对话名称
+     */
+    private String talkName;
+    /**
+     * 对话头像
+     */
+    private String talkHead;
 
     public TalkBoxData() {
     }

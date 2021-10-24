@@ -9,10 +9,10 @@ package top.syhan.chat.ui.view.login;
 public interface ILoginEvent {
     /**
      * 登陆验证
-     *
-     * @param userId       用户ID
+     *  @param userId       用户ID
      * @param userPassword 用户密码
+     * @param loginController
      */
-    void doLoginCheck(String userId, String userPassword);
+    void doLoginCheck(String userId, String userPassword, LoginController loginController);
 
 }

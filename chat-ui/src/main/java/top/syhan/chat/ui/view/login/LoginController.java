@@ -21,7 +21,7 @@ public class LoginController extends LoginInit implements ILoginMethod {
 
     @Override
     public void initEventDefine() {
-        LoginEventDefine loginEventDefine = new LoginEventDefine(this, loginEvent, this);
+        LoginEventDefine loginEventDefine = new LoginEventDefine(this, loginEvent, this, this);
     }
 
     @Override
