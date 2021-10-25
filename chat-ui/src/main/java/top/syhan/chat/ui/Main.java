@@ -1,7 +1,6 @@
 package top.syhan.chat.ui;
 
 import javafx.application.Application;
-import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 import top.syhan.chat.ui.view.chat.ChatController;
 import top.syhan.chat.ui.view.chat.IChatEvent;
@@ -60,11 +59,15 @@ public class Main extends Application {
                 chat.addTalkMsgRight("1000006", "你哪位?", new Date(), true, false, false);
                 chat.addTalkMsgUserLeft("1000006", "我是六号床", new Date(), true, true, true);
 //                chat.addTalkMsgUserLeft("1000006", "唯一不变的，是人与人之间的江湖", new Date(), true, false, true);
+
+                chat.addTalkBox(-1, 0, "1000007", "陶然然", "https://t.ly/HEjv", "", new Date(), false);
+                chat.addTalkMsgRight("1000007", "老師好", new Date(), true, false, false);
+                chat.addTalkMsgUserLeft("1000007", "Hi,nice to meet you.", new Date(), true, true, false);
                 // 群组 - 对话框
-                chat.addTalkBox(0, 1, "5307397", "筠竹苑的小树林", "https://tva4.sinaimg.cn/large/9bd9b167ly1g1p9qmx8p1j20b40b40u3.jpg", "", new Date(), true);
-                chat.addTalkMsgRight("5307397", "小树林里的卧龙凤雏", new Date(), true, true, false);
-                chat.addTalkMsgGroupLeft("5307397", "1000002", "彭海洋", "https://tva3.sinaimg.cn/large/9bd9b167ly1fzjvsomfksj20b40b4aap.jpg", "我是卧龙", new Date(), true, false, true);
-                chat.addTalkMsgGroupLeft("5307397", "1000006", "王林", "https://tva4.sinaimg.cn/large/9bd9b167ly1g1p9pt3g1jj20b40b40t8.jpg", "我是凤雏", new Date(), true, false, true);
+//                chat.addTalkBox(0, 1, "5307397", "陶然然", "https://tva4.sinaimg.cn/large/9bd9b167ly1g1p9qmx8p1j20b40b40u3.jpg", "", new Date(), true);
+//                chat.addTalkMsgRight("5307397", "小树林里的卧龙凤雏", new Date(), true, true, false);
+//                chat.addTalkMsgGroupLeft("5307397", "1000002", "彭海洋", "https://tva3.sinaimg.cn/large/9bd9b167ly1fzjvsomfksj20b40b4aap.jpg", "我是卧龙", new Date(), true, false, true);
+//                chat.addTalkMsgGroupLeft("5307397", "1000006", "王林", "https://tva4.sinaimg.cn/large/9bd9b167ly1g1p9pt3g1jj20b40b40t8.jpg", "我是凤雏", new Date(), true, false, true);
 //                 //填充对话框测试数据
 //                chat.addTalkBox(-1, 0, "1000001", "一号床", "https://tva3.sinaimg.cn/large/9bd9b167ly1g1p9q1ufe2j20b40b4mxr.jpg", "(ง •̀_•́)ง", new Date(), true);
 //                chat.addTalkBox(-1, 0, "1000002", "二号床", "https://tva3.sinaimg.cn/large/9bd9b167ly1fzjvsomfksj20b40b4aap.jpg", "(ΘェΘ)", new Date(), true);
