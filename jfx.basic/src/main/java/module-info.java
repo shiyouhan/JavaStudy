@@ -11,4 +11,7 @@ module top.syhan.jfxbasic {
 
     opens top.syhan.jfx.basic.trayicon to javafx.fxml;
     exports top.syhan.jfx.basic.trayicon;
+
+    opens top.syhan.jfx.basic.animate to javafx.fxml;
+    exports top.syhan.jfx.basic.animate;
 }
