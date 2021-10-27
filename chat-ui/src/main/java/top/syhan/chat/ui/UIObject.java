@@ -9,6 +9,8 @@ package top.syhan.chat.ui;
 
 import javafx.scene.Cursor;
 import javafx.scene.Parent;
+import javafx.scene.control.ListView;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 public abstract class UIObject extends Stage {
@@ -65,4 +67,11 @@ public abstract class UIObject extends Stage {
      * 初始化事件定义：抽象方法
      */
     public abstract void initEventDefine();
+
+    @SafeVarargs
+    public final void clearViewListSelectedAll(ListView<Pane>... listViews) {
+        for (ListView<Pane> listView : listViews) {
+            listView.getSelectionModel().clearSelection();
+        }
+    }
 }

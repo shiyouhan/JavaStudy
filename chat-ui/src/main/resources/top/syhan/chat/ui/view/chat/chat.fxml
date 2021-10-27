@@ -4,8 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import org.kordamp.ikonli.javafx.*?>
-
-<Pane id="chat" prefHeight="820.0" prefWidth="1243.0" stylesheets="@css/chat.css" xmlns="http://javafx.com/javafx/">
+<Pane id="chat" prefHeight="820.0" prefWidth="1243.0" stylesheets="@css/chat.css" xmlns="http://javafx.com/javafx/17">
     <!-- 控制栏 -->
     <Pane id="bar" prefHeight="820" prefWidth="76">
         <!-- 头像 -->
@@ -90,19 +89,37 @@
         </Pane>
         <!-- 文本栏 -->
         <Pane id="txt" layoutX="314" layoutY="684" prefHeight="90" prefWidth="852">
-            <TextArea id="txt_input" layoutX="20" prefHeight="90" prefWidth="813" styleClass="txt_input_style"
+            <TextArea id="txt_input" layoutX="2.0" prefHeight="90" prefWidth="850.0" styleClass="txt_input_style"
                       wrapText="true"/>
         </Pane>
         <!-- 触达消息 [发送] -->
-        <Pane id="touch" layoutX="314" layoutY="775" prefHeight="40" prefWidth="852">
-            <Label id="touch_send" layoutX="730" layoutY="4" prefHeight="34" prefWidth="85" text="发送(S)"/>
+        <Pane id="touch" layoutX="313.0" layoutY="774.0" prefHeight="44.0" prefWidth="852.0">
+            <Label id="touch_send" layoutX="736.0" prefHeight="34" prefWidth="85" text="发送(S)"/>
         </Pane>
 
     </Pane>
 
     <!-- groupBarFriend -->
-    <Pane id="groupBarFriend" layoutX="76" layoutY="1" prefHeight="818" prefWidth="1166" styleClass="groupBarFriend"
-          visible="false">
+    <Pane visible="false" id="groupBarFriend" layoutX="76" layoutY="1" prefWidth="1166" prefHeight="818">
+        <!-- 操作栏；最小化、关闭 -->
+        <Pane id="operation" layoutX="314" prefWidth="852" prefHeight="32">
+            <Button id="group_bar_friend_min" styleClass="min" layoutX="767" prefWidth="42" prefHeight="32"/>
+            <Button id="group_bar_friend_close" styleClass="close" layoutX="810" prefWidth="42" prefHeight="32"/>
+        </Pane>
+        <!-- 搜索栏 -->
+        <Pane styleClass="search" prefHeight="80" prefWidth="314">
+            <TextField styleClass="searchInput" layoutX="20" layoutY="30" prefHeight="30" prefWidth="240"
+                       promptText="搜索">
+                <padding>
+                    <Insets left="30"/>
+                </padding>
+            </TextField>
+            <Label styleClass="searchAdd" layoutX="270" layoutY="30" prefHeight="30" prefWidth="30"/>
+        </Pane>
+        <!-- 好友栏 -->
+        <Pane id="friend" layoutY="80" prefHeight="738" prefWidth="314">
+            <ListView id="friendList" prefHeight="738" prefWidth="314" styleClass="friendListStyle"/>
+        </Pane>
     </Pane>
 
     <!-- groupBarLocation -->
@@ -116,124 +133,3 @@
     </Pane>
 
 </Pane>
-
-
-        <!--<?xml version="1.0" encoding="UTF-8"?>-->
-
-<!--<?import javafx.scene.control.*?>-->
-<!--<?import javafx.scene.layout.*?>-->
-<!--<?import org.kordamp.ikonli.javafx.*?>-->
-<!--<?import org.kordamp.ikonli.materialdesign.*?>-->
-
-<!--<?import javafx.geometry.Insets?>-->
-
-<!--<Pane id="chat" prefHeight="780.0" prefWidth="1240.0"-->
-<!--      stylesheets="@css/chat.css" xmlns="http://javafx.com/javafx/17"-->
-<!--      xmlns:fx="http://javafx.com/fxml/1">-->
-<!--    &lt;!&ndash; 控制栏 &ndash;&gt;-->
-<!--    <Pane id="bar" prefHeight="780.0" prefWidth="76">-->
-<!--        &lt;!&ndash; 头像 &ndash;&gt;-->
-<!--        <Button id="barPortrait" layoutX="13" layoutY="23" mnemonicParsing="false" prefHeight="50" prefWidth="50"/>-->
-
-<!--        &lt;!&ndash; 聊天 &ndash;&gt;-->
-<!--        <Button id="barChat" layoutX="15" layoutY="100" mnemonicParsing="false" prefHeight="30" prefWidth="30"-->
-<!--                styleClass="bar">-->
-<!--            <graphic>-->
-<!--                <StackedFontIcon iconSize="32">-->
-<!--                    <FontIcon iconColor="#9E99EE" iconLiteral="mdi-access-point"/>-->
-<!--                </StackedFontIcon>-->
-<!--            </graphic>-->
-<!--        </Button>-->
-
-<!--        &lt;!&ndash; 好友 &ndash;&gt;-->
-<!--        <Button id="barFriend" layoutX="15" layoutY="160" mnemonicParsing="false" prefHeight="30" prefWidth="30"-->
-<!--                styleClass="bar">-->
-<!--            <graphic>-->
-<!--                <StackedFontIcon iconSize="32">-->
-<!--                    <FontIcon iconColor="#6F6F70" iconLiteral="mdi-account-multiple"/>-->
-<!--                </StackedFontIcon>-->
-<!--            </graphic>-->
-<!--        </Button>-->
-
-<!--        &lt;!&ndash; 收藏 &ndash;&gt;-->
-<!--        <Button id="barLocation" layoutX="15" layoutY="220" mnemonicParsing="false" prefHeight="30" prefWidth="30"-->
-<!--                styleClass="bar">-->
-<!--            <graphic>-->
-<!--                <StackedFontIcon iconSize="32">-->
-<!--                    <FontIcon iconColor="#6F6F70" iconLiteral="mdi-cube-outline"/>-->
-<!--                </StackedFontIcon>-->
-<!--            </graphic>-->
-<!--        </Button>-->
-
-<!--        &lt;!&ndash; 设置 &ndash;&gt;-->
-<!--        <Button id="barSet" layoutX="15.0" layoutY="670.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="20"-->
-<!--                styleClass="bar">-->
-<!--            <graphic>-->
-<!--                <StackedFontIcon iconSize="32">-->
-<!--                    <FontIcon iconColor="#6F6F70" iconLiteral="mdi-settings"/>-->
-<!--                </StackedFontIcon>-->
-<!--            </graphic>-->
-<!--        </Button>-->
-<!--    </Pane>-->
-
-<!--    &lt;!&ndash; groupBarChat &ndash;&gt;-->
-<!--    <Pane id="groupBarChat" layoutX="76" layoutY="1" prefHeight="780.0" prefWidth="1240.0" styleClass="groupBarChat">-->
-<!--        &lt;!&ndash; 搜索栏 &ndash;&gt;-->
-<!--        <Pane styleClass="search" prefHeight="80" prefWidth="314">-->
-<!--            <TextField styleClass="searchInput" layoutX="20" layoutY="30" prefHeight="30" prefWidth="240"-->
-<!--                       promptText="搜索">-->
-<!--                <padding>-->
-<!--                    <Insets left="30"/>-->
-<!--                </padding>-->
-<!--            </TextField>-->
-<!--            <Label styleClass="searchAdd" layoutX="270" layoutY="30" prefHeight="30" prefWidth="30"/>-->
-<!--        </Pane>-->
-<!--        &lt;!&ndash; 会话栏 &ndash;&gt;-->
-<!--        <Pane id="talk" layoutY="80" prefHeight="738" prefWidth="314">-->
-<!--            <ListView id="talkList" prefHeight="738" prefWidth="314" styleClass="talkListStyle"/>-->
-<!--        </Pane>-->
-<!--    </Pane>-->
-
-<!--    &lt;!&ndash; groupBarFriend &ndash;&gt;-->
-<!--    <Pane id="groupBarFriend" layoutX="76" layoutY="1" prefHeight="780.0" prefWidth="1240.0" styleClass="groupBarFriend"-->
-<!--          visible="false">-->
-<!--    </Pane>-->
-
-<!--    &lt;!&ndash; groupBarLocation &ndash;&gt;-->
-<!--    <Pane id="groupBarLocation" layoutX="76" layoutY="1" prefHeight="780.0" prefWidth="1240.0"-->
-<!--          styleClass="groupBarLocation"-->
-<!--          visible="false">-->
-<!--    </Pane>-->
-
-<!--    &lt;!&ndash; groupBarSet &ndash;&gt;-->
-<!--    <Pane id="groupBarSet" layoutX="76" layoutY="1" prefHeight="780.0" prefWidth="1240.0"-->
-<!--          styleClass="groupBarSet"-->
-<!--          visible="false">-->
-<!--    </Pane>-->
-
-<!--    &lt;!&ndash; 消息栏；对话名称 (昵称、群名称) &ndash;&gt;-->
-<!--    <Pane id="information" layoutX="314" layoutY="32" prefHeight="606" prefWidth="852">-->
-<!--        <Pane id="info_pane" prefHeight="44" prefWidth="852">-->
-<!--            <Label id="info_more" layoutX="800" prefHeight="43" prefWidth="43"/>-->
-<!--            <Label id="info_name" layoutX="40" layoutY="-8" prefHeight="40" prefWidth="400" text="InfinityX7"/>-->
-<!--        </Pane>-->
-<!--        <Pane id="info_pane_box" layoutX="1" layoutY="45" prefHeight="560" prefWidth="850"-->
-<!--              style="-fx-background-color:transparent;-fx-border-width:0;"/>-->
-<!--    </Pane>-->
-
-<!--    &lt;!&ndash; 工具栏 &ndash;&gt;-->
-<!--    <Pane id="tool" layoutX="314" layoutY="638" prefHeight="46" prefWidth="852">-->
-<!--        <Button id="tool_face" layoutX="20" layoutY="3" prefHeight="40" prefWidth="40"/>-->
-<!--    </Pane>-->
-
-<!--    &lt;!&ndash; 文本栏 &ndash;&gt;-->
-<!--    <Pane id="txt" layoutX="314" layoutY="684" prefHeight="90" prefWidth="852">-->
-<!--        <TextArea id="txt_input" layoutX="20" prefHeight="90" prefWidth="813" styleClass="txt_input_style"-->
-<!--                  wrapText="true"/>-->
-<!--    </Pane>-->
-<!--    &lt;!&ndash; 触达消息 [发送] &ndash;&gt;-->
-<!--    <Pane id="touch" layoutX="314" layoutY="775" prefHeight="40" prefWidth="852">-->
-<!--        <Label id="touch_send" layoutX="730" layoutY="4" prefHeight="34" prefWidth="85" text="发送(S)"/>-->
-<!--    </Pane>-->
-
-<!--</Pane>-->
