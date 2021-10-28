@@ -56,20 +56,22 @@ public class ElementFriendSubscription {
 
         Button gzhButton = new Button();
         gzhButton.setPrefSize(65, 65);
-        gzhButton.setLayoutX(110);
+        gzhButton.setLayoutX(90);
         gzhButton.setLayoutY(30);
         gzhButton.setStyle("-fx-background-color: transparent;" +
                 "-fx-background-radius: 0px;" +
-                "-fx-border-width: 50px;");
+                "-fx-border-width: 50px;" +
+                "-fx-background-size: cover;" +
+                "-fx-background-image: url('https://bkimg.cdn.bcebos.com/pic/91ef76c6a7efce1b9d1612d92a18e4deb48f8c54cfc4?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto');");
         subPaneChildren.add(gzhButton);
 
         Label gzhLabel = new Label();
         gzhLabel.setPrefSize(150, 20);
         gzhLabel.setLayoutX(95);
         gzhLabel.setLayoutY(100);
-        gzhLabel.setText("松山院");
+        gzhLabel.setText("--NIIT--");
         gzhLabel.setStyle("-fx-background-color: transparent;-fx-border-width: 0; -fx-text-fill: #999999;" +
-                "-fx-font-size: 14px;");
+                "-fx-font-size: 16px;");
         gzhLabel.setTextAlignment(TextAlignment.CENTER);
         subPaneChildren.add(gzhLabel);
 
@@ -82,4 +84,5 @@ public class ElementFriendSubscription {
     public Pane subPane() {
         return subPane;
     }
+
 }

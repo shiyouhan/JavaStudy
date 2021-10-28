@@ -6,21 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a6dd6767-8707-470a-b6dc-6ce0e3e55810" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/UIObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/UIObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/param/AppConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/param/AppConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/view/chat/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/view/chat/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/view/chat/ChatEventDefine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/view/chat/ChatEventDefine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/view/chat/ChatInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/view/chat/ChatInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/view/chat/IChatMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/view/chat/IChatMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/UIObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/UIObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/param/AppConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/param/AppConst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatEventDefine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatEventDefine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatInit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/IChatMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/view/chat/IChatMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jfx.basic/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jfx.basic/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +136,7 @@
       <workItem from="1635010083043" duration="271000" />
       <workItem from="1635010583243" duration="61000" />
       <workItem from="1635171002250" duration="264000" />
+      <workItem from="1635379673795" duration="1922000" />
     </task>
     <servers />
   </component>

@@ -34,7 +34,7 @@ public class ChatEventDefine {
         this.barSet();
         doEventTextSend();   // 发送消息事件[键盘]
         doEventTouchSend();  // 发送消息事件[按钮]
-        doEventToolFace();
+        doEventToolFace();   // 表情窗体
     }
 
     /**
@@ -209,11 +209,11 @@ public class ChatEventDefine {
     }
 
     /**
-     * 发送消息
+     * 发送消息[按钮]
      */
     private void doEventTouchSend() {
-        Label touch_send = chatInit.$("touch_send", Label.class);
-        touch_send.setOnMousePressed(event -> {
+        Label touchSend = chatInit.$("touch_send", Label.class);
+        touchSend.setOnMousePressed(event -> {
             doEventSendMsg();
         });
     }
@@ -223,8 +223,8 @@ public class ChatEventDefine {
      * 发送消息快捷键
      */
     private void doEventTextSend() {
-        TextArea txt_input = chatInit.$("txt_input", TextArea.class);
-        txt_input.setOnKeyPressed(event -> {
+        TextArea txtInput = chatInit.$("txt_input", TextArea.class);
+        txtInput.setOnKeyPressed(event -> {
             if (event.getCode().equals(KeyCode.ENTER)) {
                 doEventSendMsg();
             }
@@ -232,25 +232,67 @@ public class ChatEventDefine {
     }
 
     private void doEventSendMsg() {
-        TextArea txt_input = chatInit.$("txt_input", TextArea.class);
+        TextArea txtInput = chatInit.$("txt_input", TextArea.class);
         MultipleSelectionModel selectionModel = chatInit.$("talkList", ListView.class).getSelectionModel();
         Pane selectedItem = (Pane) selectionModel.getSelectedItem();
         // 对话信息
         TalkBoxData talkBoxData = (TalkBoxData) selectedItem.getUserData();
-        String msg = txt_input.getText().trim();
-        if (null == msg || "".equals(msg) || "".equals(msg.trim())) {
+        String msg = txtInput.getText().trim();
+        if ("".equals(msg)) {
             return;
         }
-        Date msgDate = new Date();
         // 发送消息
         System.out.println("发送消息：" + msg);
         // 发送事件给自己添加消息
-        chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, msgDate, true, true, false);
-        txt_input.clear();
+        chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, new Date(), true, true, false);
+        txtInput.clear();
+    }
+
+
+    /**
+     * 与好友发送消息 [点击发送消息时候触发 -> 添加到对话框、选中、展示对话列表]
+     *
+     * @param sendMsgButton      发送按钮
+     * @param userFriendId       好友id
+     * @param userFriendNickName 好友昵称
+     * @param userFriendHead     好友头像
+     */
+    public void doEventOpenFriendUserSendMsg(Button sendMsgButton, String userFriendId, String userFriendNickName, String userFriendHead) {
+        sendMsgButton.setOnAction(event -> {
+            // 1. 添加好友到对话框
+            chatMethod.addTalkBox(0, 0, userFriendId, userFriendNickName, userFriendHead, null, null, true);
+            System.out.println(userFriendId + "," + userFriendNickName);
+            // 2. 切换到对话框窗口
+            switchBarChat(chatInit.$("barChat", Button.class), chatInit.$("groupBarChat", Pane.class), true);
+            switchBarFriend(chatInit.$("barFriend", Button.class), chatInit.$("groupBarFriend", Pane.class), false);
+            // 3. 事件处理；填充到对话框
+            System.out.println("事件处理；填充到对话框");
+        });
     }
 
     /**
-     * 处理表情框事件
+     * 群组发送消息
+     *
+     * @param sendMsgButton 发送按钮
+     * @param groupId       群组id
+     * @param groupName     群组名称
+     * @param groupHead     群头像
+     */
+    public void doEventOpenFriendGroupSendMsg(Button sendMsgButton, String groupId, String groupName, String groupHead) {
+        sendMsgButton.setOnAction(event -> {
+            // 1. 添加群组到对话框
+            chatMethod.addTalkBox(0, 1, groupId, groupName, groupHead, null, null, true);
+            // 2. 切换到对话框窗口
+            switchBarChat(chatInit.$("barChat", Button.class), chatInit.$("groupBarChat", Pane.class), true);
+            switchBarFriend(chatInit.$("barFriend", Button.class), chatInit.$("groupBarFriend", Pane.class), false);
+            // 3. 事件处理；填充到对话框
+            System.out.println("事件处理；填充到对话框");
+        });
+    }
+
+
+    /**
+     * 表情事件
      */
     private void doEventToolFace() {
         FaceController face = new FaceController(chatInit, chatInit, chatEvent, chatMethod);
@@ -259,4 +301,5 @@ public class ChatEventDefine {
             face.doShowFace(chatMethod.getToolFaceX(), chatMethod.getToolFaceY());
         });
     }
+
 }
