@@ -2,6 +2,8 @@ module top.syhan.jfxbasic {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.desktop;
+    requires javafx.web;
+    requires javafx.graphics;
 
     opens top.syhan.jfx.basic to javafx.fxml;
     exports top.syhan.jfx.basic;
@@ -14,4 +16,7 @@ module top.syhan.jfxbasic {
 
     opens top.syhan.jfx.basic.animate to javafx.fxml;
     exports top.syhan.jfx.basic.animate;
+
+    opens top.syhan.jfx.basic.control to javafx.fxml;
+    exports top.syhan.jfx.basic.control;
 }

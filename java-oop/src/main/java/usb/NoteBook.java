@@ -14,7 +14,6 @@ public class NoteBook {
 
     public NoteBook(String band) {
         this.band = band;
-        this.size = size;
     }
 
     public NoteBook() {
