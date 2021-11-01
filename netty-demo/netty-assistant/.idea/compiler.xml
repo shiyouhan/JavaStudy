@@ -9,8 +9,5 @@
         <module name="netty-assistant" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="netty-assistant" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

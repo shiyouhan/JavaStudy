@@ -10,10 +10,9 @@ import java.util.Properties;
  * @program: netty-assistant
  * @description:
  * @author: SYH
- * @Create: 2021-10-30 22:33
+ * @Create: 2021-11-01 09:25
  **/
 public class PropertyUtils {
-
     public static void main(String[] args) {
         // TODO Auto-generated method stub
     }

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e89e50c0-bb98-4433-9c7e-e9054e7dba0f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../netty-demo-1-09/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.properties" beforeDir="false" afterPath="$PROJECT_DIR$/a.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-assistant.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/netty/assistant/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/netty/assistant/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/netty/assistant/client/NettyClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/netty/assistant/util/PropertyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/netty/assistant/util/PropertyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/syhan/netty/assistant/view/Workspace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/syhan/netty/assistant/view/Workspace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/top/syhan/netty/assistant/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/client/NettyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/client/NettyClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/client/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/client/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/client/NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/client/NettyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/util/PropertyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/util/PropertyUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/view/Workspace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/netty/assistant/view/Workspace.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="20IQZaDH4sGvFD4DPaHqhOpA1QH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\netty-demo\netty-assistant\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Workspace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.syhan.netty.assistant.view.Workspace" />
+      <module name="netty-assistant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.syhan.netty.assistant.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Workspace" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e89e50c0-bb98-4433-9c7e-e9054e7dba0f" name="Changes" comment="" />
+      <created>1635729678135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635729678135</updated>
+      <workItem from="1635729680074" duration="1141000" />
+      <workItem from="1635758118435" duration="1098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

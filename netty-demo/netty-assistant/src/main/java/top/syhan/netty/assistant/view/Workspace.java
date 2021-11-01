@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
  * @program: netty-assistant
  * @description:
  * @author: SYH
- * @Create: 2021-10-30 22:34
+ * @Create: 2021-11-01 09:26
  **/
 public class Workspace extends JFrame implements ActionListener {
     private NettyClient client = null;

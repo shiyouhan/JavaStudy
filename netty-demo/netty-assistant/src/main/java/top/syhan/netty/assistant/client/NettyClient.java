@@ -9,14 +9,14 @@ import io.netty.handler.codec.LineBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.util.CharsetUtil;
+
 /**
  * @program: netty-assistant
  * @description: NettyClient
  * @author: SYH
- * @Create: 2021-10-30 22:31
+ * @Create: 2021-11-01 09:23
  **/
 public class NettyClient {
-
     private int port;
     private String host;
     private SocketChannel socketChannel;
@@ -59,7 +59,7 @@ public class NettyClient {
 
                     // Encoder
                     pipeline.addLast("stringEncoder", new StringEncoder(CharsetUtil.UTF_8));
-                    pipeline.addLast((ChannelHandler) new NettyClientHandler());
+                    pipeline.addLast(new NettyClientHandler());
                 }
             });
             ChannelFuture future = bootstrap.connect(host, port).sync();
@@ -76,5 +76,4 @@ public class NettyClient {
     public static void main(String[] args) {
         //new NettyClient(21868, "localhost");
     }
-
 }

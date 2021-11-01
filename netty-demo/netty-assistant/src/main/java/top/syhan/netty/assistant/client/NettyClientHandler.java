@@ -7,7 +7,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
  * @program: netty-assistant
  * @description:
  * @author: SYH
- * @Create: 2021-10-30 22:32
+ * @Create: 2021-11-01 09:24
  **/
 public class NettyClientHandler extends SimpleChannelInboundHandler<String> {
 
