@@ -38,7 +38,7 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
         }
 
         String sendMsg = """
-                只要思想不滑坡，方法总比困难多..
+                既然认准了这一条路，何必去打听要走多久。
                 博客：https://hexo.syhan.top""";
 
         FullHttpResponse response = new DefaultFullHttpResponse(
