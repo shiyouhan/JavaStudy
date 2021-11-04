@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6dd6767-8707-470a-b6dc-6ce0e3e55810" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/src/main/java/top/syhan/chat/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/target/classes/top/syhan/chat/ui/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +16,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zToMugRt13voFUtCJaAQ1FV61g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,13 +52,18 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Employee">
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.absclass.Employee" />
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="top.syhan.java.oop.exceptionex" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ArrayListTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ArrayListTest" />
       <module name="java-lesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.syhan.java.oop.absclass.*" />
+          <option name="PATTERN" value="top.syhan.java.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ex.FrameDemo" />
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.absclass.Employee" />
       <module name="java-lesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.syhan.java.oop.ex.*" />
+          <option name="PATTERN" value="top.syhan.java.oop.absclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestComputer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.Test.TestComputer" />
+    <configuration name="exceptiondemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.exceptionex.exceptiondemo2" />
       <module name="java-lesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.syhan.java.oop.Test.*" />
+          <option name="PATTERN" value="top.syhan.java.oop.exceptionex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListTest" />
+        <item itemvalue="Application.exceptiondemo2" />
         <item itemvalue="Application.Employee" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyDate" />
-        <item itemvalue="Application.FrameDemo" />
-        <item itemvalue="Application.TestComputer" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +150,9 @@
       <workItem from="1635010583243" duration="61000" />
       <workItem from="1635171002250" duration="264000" />
       <workItem from="1635379673795" duration="1922000" />
+      <workItem from="1635985092218" duration="8997000" />
+      <workItem from="1636003712131" duration="2273000" />
+      <workItem from="1636041747152" duration="163000" />
     </task>
     <servers />
   </component>
