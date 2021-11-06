@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6dd6767-8707-470a-b6dc-6ce0e3e55810" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/syhan/chat/client/socket/MyChannelInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/src/main/java/top/syhan/chat/client/socket/MyChannelInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/syhan/chat/client/socket/handler/TalkNoticeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/src/main/java/top/syhan/chat/client/socket/handler/TalkNoticeHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../netty-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/syhan/java/oop/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/syhan/java/oop/ArrayListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,20 @@
       <recent name="top.syhan.java.oop.exceptionex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListTest">
+  <component name="RunManager" selected="Application.ListDemo">
+    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ArrayDemo" />
+      <module name="java-lesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.syhan.java.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ArrayListTest" />
       <module name="java-lesson" />
@@ -84,25 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.animal.Main" />
+    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ListDemo" />
       <module name="java-lesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.syhan.java.oop.animal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ex.MyDate" />
-      <module name="java-lesson" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.syhan.java.oop.ex.*" />
+          <option name="PATTERN" value="top.syhan.java.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListDemo" />
+        <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.exceptiondemo2" />
         <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MyDate" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +156,7 @@
       <workItem from="1635985092218" duration="8997000" />
       <workItem from="1636003712131" duration="2273000" />
       <workItem from="1636041747152" duration="163000" />
+      <workItem from="1636186469280" duration="7670000" />
     </task>
     <servers />
   </component>
