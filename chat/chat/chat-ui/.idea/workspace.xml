@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5fda938f-8a68-4fd1-ad04-a1b7632c8236" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/application/UIService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/domain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/event/ChatEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/event/LoginEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/infrastructure/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/infrastructure/util/BeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/infrastructure/util/CacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/MyBizHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/MyChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/handler/AddFriendHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/handler/LoginHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/handler/MsgGroupHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/handler/MsgHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/handler/SearchFriendHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/java/top/ycshang/chat/client/socket/handler/TalkNoticeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/application/UIService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/event/ChatEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/event/LoginEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/infrastructure/util/BeanUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/infrastructure/util/CacheUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/MyBizHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/MyChannelInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/NettyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/handler/AddFriendHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/handler/LoginHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/handler/MsgGroupHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/handler/MsgHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/handler/SearchFriendHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-client/target/classes/top/ycshang/chat/client/socket/handler/TalkNoticeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/codec/ObjDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/codec/ObjEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/friend/AddFriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/friend/AddFriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/friend/SearchFriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/friend/SearchFriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/friend/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/login/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/login/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/login/ReconnectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/login/dto/ChatRecordDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/login/dto/ChatTalkDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/login/dto/GroupsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/login/dto/UserFriendDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/msg/MsgGroupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/msg/MsgGroupResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/msg/MsgRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/msg/MsgResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/talk/DelTalkRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/talk/TalkNoticeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/protocol/talk/TalkNoticeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/src/main/java/top/ycshang/chat/util/SerializationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/codec/ObjDecoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/codec/ObjEncoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/Packet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/friend/AddFriendRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/friend/AddFriendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/friend/SearchFriendRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/friend/SearchFriendResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/friend/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/login/LoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/login/LoginResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/login/ReconnectRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/login/dto/ChatRecordDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/login/dto/ChatTalkDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/login/dto/GroupsDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/login/dto/UserFriendDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/msg/MsgGroupRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/msg/MsgGroupResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/msg/MsgRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/msg/MsgResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/talk/DelTalkRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/talk/TalkNoticeRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/protocol/talk/TalkNoticeResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-agreement/target/classes/top/ycshang/chat/util/SerializationUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/application/InetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/application/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/inet/model/ChannelUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/inet/model/ChannelUserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/inet/model/InetServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/inet/repository/IInetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/inet/service/InetServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/model/ChatRecordInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/model/GroupsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/model/NewUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/model/TalkBoxInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/model/UserFriendInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/model/UserGroupInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/model/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/domain/user/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/common/EasyResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/common/PageReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/common/SocketChannelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/dao/IChatRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/dao/IGroupsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/dao/IGroupsMemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/dao/ITalkBoxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/dao/IUserFriendDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/dao/IUserGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/po/ChatRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/po/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/po/TalkBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/po/UserFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/po/UserGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/repository/InetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/infrastructure/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/interfaces/InetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/MyBizHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/MyChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/handler/AddFriendHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/handler/DelTalkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/handler/LoginHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/handler/MsgGroupHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/handler/MsgHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/handler/ReconnectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/handler/SearchFriendHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/java/top/ycshang/chat/socket/handler/TalkNoticeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/ChatRecord_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/Groups_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/TalkBox_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/UserFriend_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/UserGroup_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/User_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/spring/spring-config-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/server/js/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/server/server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/01_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/02_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/03_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/04_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/05_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/06_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/07_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/08_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/09_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/10_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/11_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/12_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/api/clear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/api/init.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/api/menus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/api/table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/api/tableSelect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/api/upload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/css/layuimini.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/css/official-evaluation/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/images/captcha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/echarts/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/echarts/echartsTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/iconPicker/iconPickerFa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/layuimini/layuimini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/step-lay/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/step-lay/step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/tableSelect/tableSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/treetable-lay/treetable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/treetable-lay/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/xmSelect/xmSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/components/image-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/axios/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jq-module/jquery.particleground.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jq-module/paigusu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jq-module/zyupload/zyupload-1.0.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jq-module/zyupload/zyupload-1.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/vue/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/color-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/form-step.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/icon-picker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/layer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/login-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/login-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/official-evaluation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/table-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/user-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/user-setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/welcome-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res/page/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/resources/webapp/res_layui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/webapp/res_layui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/mybatis/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/mybatis/mapper/ChatRecord_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/mybatis/mapper/Groups_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/mybatis/mapper/TalkBox_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/mybatis/mapper/UserFriend_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/mybatis/mapper/UserGroup_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/mybatis/mapper/User_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/spring/spring-config-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/application/InetService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/application/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/inet/model/ChannelUserInfo$ChannelUserInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/inet/model/ChannelUserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/inet/model/ChannelUserReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/inet/model/InetServerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/inet/repository/IInetRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/inet/service/InetServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/ChatRecordInfo$ChatRecordInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/ChatRecordInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/GroupsInfo$GroupsInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/GroupsInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/NewUserInfo$NewUserInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/NewUserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/TalkBoxInfo$TalkBoxInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/TalkBoxInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/UserFriendInfo$UserFriendInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/UserFriendInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/UserGroupInfo$UserGroupInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/UserGroupInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/UserInfo$UserInfoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/model/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/repository/IUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/service/UserServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/domain/user/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/common/Constants$MsgType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/common/Constants$ResponseCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/common/Constants$TalkType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/common/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/common/EasyResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/common/PageReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/common/SocketChannelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/dao/IChatRecordDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/dao/IGroupsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/dao/IGroupsMemberDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/dao/ITalkBoxDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/dao/IUserFriendDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/dao/IUserGroupDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/ChatRecord$ChatRecordBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/ChatRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/Groups$GroupsBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/Groups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/TalkBox$TalkBoxBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/TalkBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/UserFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/UserGroup$UserGroupBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/po/UserGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/repository/InetRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/infrastructure/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/interfaces/InetController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/interfaces/InetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/MyBizHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/MyChannelInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/handler/AddFriendHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/handler/DelTalkHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/handler/LoginHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/handler/MsgGroupHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/handler/MsgHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/handler/ReconnectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/handler/SearchFriendHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/classes/top/ycshang/chat/socket/handler/TalkNoticeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/mybatis/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/mybatis/mapper/ChatRecord_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/mybatis/mapper/Groups_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/mybatis/mapper/TalkBox_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/mybatis/mapper/UserFriend_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/mybatis/mapper/UserGroup_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/mybatis/mapper/User_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/target/test-classes/spring/spring-config-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_materialdesign_pack_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_openjfx_javafx_base_14_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_openjfx_javafx_base_win_14_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_openjfx_javafx_controls_14_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_openjfx_javafx_fxml_14_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_14_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/chat-ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/param/AppConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/util/AutoSizeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/util/CacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/util/Ids.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/UIObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/ChatEventDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/ChatInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/ChatView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/IChatEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/IChatMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/data/GroupsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/data/RemindCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/data/TalkBoxData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/data/TalkData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_chat/ElementInfoBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_chat/ElementTalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendGroupList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendNewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendSubscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendUserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/face/FaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/face/FaceEventDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/face/FaceInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/face/FaceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/face/IFaceMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/login/ILoginEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/login/ILoginMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/login/LoginEventDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/login/LoginInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/java/top/ycshang/chatui/view/login/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/head/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/img/f_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/img/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/img/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/chat-ui-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/chat-ui.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/chat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/chat_bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_chat/chat_information.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_chat/chat_operation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_chat/chat_search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_chat/chat_talk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_chat/chat_tool.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_chat/chat_touch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_chat/chat_txt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_chat/group_bar_chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_friend/chat_content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_friend/chat_friend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_friend/chat_friend_group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_friend/chat_friend_new.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_friend/chat_friend_user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_friend/chat_operation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_friend/chat_search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/css/group_bar_friend/group_bar_friend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/head/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/head/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/add_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/add_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/chat_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/chat_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/chat_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/close_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/close_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/face_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/face_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/friend_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/friend_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/friend_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/friend_group_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/friend_luck_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/head-default-5050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/head-default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/head_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/head_default_5050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/location_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/location_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/location_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/min_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/min_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/more_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/more_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/search_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/set_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/set_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/set_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/chat/img/system/talk_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/css/face.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/face.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/face/img/f_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/img/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/img/close_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/img/close_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/img/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/img/min_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/img/min_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/login/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/param/AppConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/util/CacheUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/util/Ids.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/UIObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/ChatEventDefine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/ChatInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/ChatView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/IChatEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/IChatMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/data/TalkBoxData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/data/TalkData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_chat/ElementInfoBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/face/FaceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/face/FaceEventDefine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/face/FaceView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/face/IFaceMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/login/ILoginEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/login/ILoginMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/login/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/login/LoginEventDefine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/login/LoginView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/application/UIService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/domain/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/infrastructure/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/infrastructure/util/BeanUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/infrastructure/util/CacheUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/MyBizHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/MyChannelInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/handler/AddFriendHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/handler/LoginHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/handler/MsgGroupHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/handler/MsgHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/handler/SearchFriendHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-client/src/main/java/top/syhan/chat/client/socket/handler/TalkNoticeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-agreement/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-agreement/src/main/java/top/syhan/chat/codec/ObjDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-agreement/src/main/java/top/syhan/chat/codec/ObjEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-agreement/src/main/java/top/syhan/chat/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-agreement/src/main/java/top/syhan/chat/protocol/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-agreement/src/main/java/top/syhan/chat/protocol/Packet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-agreement/src/main/java/top/syhan/chat/util/SerializationUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-ddd/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-ddd/src/main/java/top/syhan/chat/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-ddd/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-ddd/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-server/chat-server-ddd/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/chat-server-ddd/src/main/resources/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_11_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_11_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_materialdesign_pack_11_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/chat-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chat-ui/chat-ui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chat-ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/UIObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/param/AppConst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/util/AutoSizeTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/util/AutoSizeTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/util/AutoSizeTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/util/CacheUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/util/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/util/Ids$ElementTalkId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/util/Ids$ElementTalkId.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/util/Ids$ElementTalkId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/util/Ids.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatEventDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/ChatView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/IChatEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/IChatMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/chat.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/chat_bar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/chat_bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/chat_bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_information.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_information.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_chat/chat_information.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_operation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_operation.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_friend/chat_operation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_search.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_chat/chat_search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_talk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_talk.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_chat/chat_talk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_tool.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_tool.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_chat/chat_tool.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_touch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_touch.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_chat/chat_touch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_txt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/chat_txt.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_chat/chat_txt.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/group_bar_chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_chat/group_bar_chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_chat/group_bar_chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_content.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_friend/chat_content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_friend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_friend.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_friend/chat_friend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_friend_group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_friend_group.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_friend/chat_friend_group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_friend_new.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_friend_new.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_friend/chat_friend_new.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_friend_user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_friend_user.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_friend/chat_friend_user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_operation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_operation.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_chat/chat_operation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/chat_search.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_friend/chat_search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/group_bar_friend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/css/group_bar_friend/group_bar_friend.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/css/group_bar_friend/group_bar_friend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/data/GroupsData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/data/GroupsData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/data/GroupsData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/data/RemindCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/data/RemindCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/data/RemindCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/data/TalkBoxData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/data/TalkData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_chat/ElementInfoBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_chat/ElementTalk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_chat/ElementTalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_chat/ElementTalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendGroupList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendGroupList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendGroupList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendNewUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendNewUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendNewUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendSubscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendSubscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendSubscription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendUserList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/group_bar_friend/ElementFriendUserList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/chat/group_bar_friend/ElementFriendUserList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/head/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/head/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/head/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/head/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/add_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/add_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/add_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/add_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/add_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/add_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/chat_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/chat_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/chat_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/chat_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/chat_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/chat_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/chat_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/chat_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/chat_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/close_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/close_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/close_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/close_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/close_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/close_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/face_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/face_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/face_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/face_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/face_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/face_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/friend_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/friend_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/friend_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_group_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_group_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/friend_group_50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_luck_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/friend_luck_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/friend_luck_50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/head-default-5050.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/head-default-5050.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/head-default-5050.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/head-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/head-default.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/head-default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/head_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/head_default.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/head_default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/head_default_5050.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/head_default_5050.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/head_default_5050.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/location_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/location_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/location_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/location_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/location_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/location_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/location_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/location_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/location_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/min_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/min_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/min_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/min_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/min_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/min_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/more_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/more_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/more_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/more_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/more_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/more_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/search_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/search_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/search_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/set_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/set_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/set_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/set_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/set_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/set_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/set_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/set_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/set_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/talk_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/chat/img/system/talk_delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/chat/img/system/talk_delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/FaceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/FaceEventDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/FaceInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/FaceInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/face/FaceInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/FaceView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/IFaceMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/css/face.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/css/face.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/css/face.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/face.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/face.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/face/face.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/face/img/f_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/ILoginEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/ILoginMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/LoginEventDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/LoginInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/LoginInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/target/classes/top/ycshang/chatui/view/login/LoginInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/close_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/close_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/img/close_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/close_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/close_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/img/close_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/min_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/min_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/img/min_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/min_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/img/min_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Downloads/chat-ui/src/main/resources/top/ycshang/chatui/login/img/min_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chat-ui/target/classes/top/syhan/chat/ui/view/login/login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-lesson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-lesson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-oop/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-oop/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-oop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-oop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-oop/src/main/java/Article/ExceptionEnume.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-oop/src/main/java/Article/ExceptionEnume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-oop/src/main/java/Article/Publish.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-oop/src/main/java/Article/Publish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-oop/src/main/java/Article/PublishImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-oop/src/main/java/Article/PublishImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java-oop/src/main/java/Article/PulishException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java-oop/src/main/java/Article/PublishException.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tools\maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../tools/apache-maven-3.8.2-bin/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.8.2-bin\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+    <option name="runMavenInBackground" value="false" />
+    <option name="skipTests" value="true" />
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="1zonDIcpmFVc79x6iidTj0ETWoM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Downloads/chat-ui" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.24367817" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/chat/group_bar_friend" />
+      <recent name="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/view/face/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/view/chat/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/view/chat/css/group_bar_chat" />
+      <recent name="$PROJECT_DIR$/src/main/resources/top/mqxu/chat/ui/view/chat/img/head" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Jcean\Desktop\chat\chat-ui\src\main\resources\com\jcean\chat\ui\view\login" />
+      <recent name="D:\Users\Jcean\Desktop\chat\chat-ui\src\main\resources\com\jcean\chat\ui\view\login\img" />
+      <recent name="D:\Users\Jcean\Desktop\chat\chat-ui\src\main\resources\com\jcean\chat\ui\view\login\css" />
+      <recent name="D:\Users\Jcean\Desktop\chat\chat-ui\src\main\resources\com\jcean\chat\ui\view\face\img" />
+      <recent name="D:\Users\Jcean\Desktop\chat\chat-ui\src\main\resources\com\jcean\chat\ui\view\chat" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jcean.chat.ui" />
+      <recent name="com.jcean.chat.ui.view" />
+      <recent name="com.jcean.chat.ui.view.login" />
+      <recent name="com.jcean.chat.ui.view.face" />
+      <recent name="com.jcean.chat.ui.view.chat" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.mqxu.chat.ui.view.chat.group_bar_friend" />
+      <recent name="top.mqxu.chat.ui.view.chat.data" />
+      <recent name="top.mqxu.chat.ui.view.chat.group_bar_chat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jcean.chat.ui.Main" />
+      <module name="chat-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jcean.chat.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort-demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/login/sort-demo.js" working-dir="$PROJECT_DIR$/src/main/java/top/mqxu/chat/ui/view/login">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Node.js.sort-demo.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fda938f-8a68-4fd1-ad04-a1b7632c8236" name="Changes" comment="" />
+      <created>1634823187444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634823187444</updated>
+      <workItem from="1634823189080" duration="5387000" />
+      <workItem from="1634829205215" duration="6035000" />
+      <workItem from="1634894573655" duration="12201000" />
+      <workItem from="1634974485644" duration="49775000" />
+      <workItem from="1635143004407" duration="560000" />
+      <workItem from="1635143700738" duration="14678000" />
+      <workItem from="1635244383385" duration="449000" />
+      <workItem from="1635299002552" duration="9215000" />
+      <workItem from="1635420702997" duration="27000" />
+      <workItem from="1635420830590" duration="8457000" />
+      <workItem from="1636081026919" duration="2302000" />
+      <workItem from="1636198081736" duration="14050000" />
+      <workItem from="1636266259067" duration="4722000" />
+      <workItem from="1636280534211" duration="978000" />
+      <workItem from="1636282112803" duration="1997000" />
+      <workItem from="1636289531202" duration="2862000" />
+      <workItem from="1636295863917" duration="322000" />
+      <workItem from="1636336417112" duration="2114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

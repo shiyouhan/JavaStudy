@@ -12,5 +12,5 @@ public interface Publish {
      * @return
      * @throws PublishException
      * */
-    boolean checkPulish (Article article) throws PublishException;
+    boolean checkPublish (Article article) throws PublishException;
 }
