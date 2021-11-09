@@ -1,0 +1,2 @@
+className=top.syhan.java.basic.reflection.Person
+methodName=getPerson

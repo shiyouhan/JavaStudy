@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6dd6767-8707-470a-b6dc-6ce0e3e55810" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../chat-server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/Class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/FieldSu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/ReflectDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/ReflectDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/ReflectDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/ReflectDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/ReflectDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflection/TableSu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflect/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-basic/src/main/java/top/syhan/java/basic/reflect/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +67,7 @@
       <recent name="top.syhan.java.oop.exceptionex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListDemo">
+  <component name="RunManager" selected="Application.SetDemo1">
     <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ArrayDemo" />
       <module name="java-lesson" />
@@ -88,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.absclass.Employee" />
+    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ListDemo" />
       <module name="java-lesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.syhan.java.oop.absclass.*" />
+          <option name="PATTERN" value="top.syhan.java.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.ListDemo" />
+    <configuration name="SetDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.syhan.java.oop.set.SetDemo1" />
       <module name="java-lesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.syhan.java.oop.*" />
+          <option name="PATTERN" value="top.syhan.java.oop.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetDemo1" />
         <item itemvalue="Application.ListDemo" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.exceptiondemo2" />
-        <item itemvalue="Application.Employee" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +164,7 @@
       <workItem from="1636003712131" duration="2273000" />
       <workItem from="1636041747152" duration="163000" />
       <workItem from="1636186469280" duration="7670000" />
+      <workItem from="1636456542289" duration="3313000" />
     </task>
     <servers />
   </component>
