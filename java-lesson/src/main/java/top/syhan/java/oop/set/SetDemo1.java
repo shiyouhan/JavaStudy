@@ -19,8 +19,10 @@ public class SetDemo1 {
                 new Student(333,"ccc"),
                 new Student(111,"aaa"),
                 new Student(222,"bbb"),
+                new Student(444,"ddd"),
         };
-        Set<Student> set1 = new HashSet<>(Arrays.asList(students));
+//        Set<Student> set1 = new HashSet<>(Arrays.asList(students));
+        Set<Student> set1 = new TreeSet<>(Arrays.asList(students));
         set1.forEach(System.out::println);
 
 
